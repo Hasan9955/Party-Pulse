@@ -6,6 +6,7 @@ import CardDetails from "../Shared Pages/CardDetails";
 import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
 import PrivateRoute from "./PrivateRoute";
+import Shop from "../Components/Shop/Shop";
 
 
   const router = createBrowserRouter([
@@ -21,7 +22,7 @@ import PrivateRoute from "./PrivateRoute";
         {
             path: '/details/:id',
             element: <PrivateRoute><CardDetails></CardDetails></PrivateRoute>,
-            loader: () => fetch('/public/service.json')
+            loader: () => fetch('/service.json')
         },
         {
           path: '/login',
@@ -30,6 +31,10 @@ import PrivateRoute from "./PrivateRoute";
         {
           path: '/register',
           element: <Register></Register>
+        },
+        {
+          path: '/shop',
+          element: <Shop></Shop>
         }
       ]
     },
