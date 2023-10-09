@@ -7,6 +7,7 @@ import Login from "../Components/Login/Login";
 import Register from "../Components/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Shop from "../Components/Shop/Shop";
+import Gallery from "../Components/Gallery/Gallery";
 
 
   const router = createBrowserRouter([
@@ -34,7 +35,12 @@ import Shop from "../Components/Shop/Shop";
         },
         {
           path: '/shop',
-          element: <Shop></Shop>
+          element: <PrivateRoute><Shop></Shop></PrivateRoute>,
+          loader: () => fetch('/Data/shop.json')
+        },
+        {
+          path: '/gallery',
+          element: <PrivateRoute><Gallery></Gallery></PrivateRoute>
         }
       ]
     },

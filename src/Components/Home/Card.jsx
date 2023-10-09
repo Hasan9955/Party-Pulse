@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 
 const Card = ({ data }) => {
 
-    const { id, image, title, description } = data;
+    const { id, image, title, description, price } = data;
     return (
         <div className="card bg-base-100 shadow-xl">
             <figure><img src={image} alt=" " /></figure>
@@ -15,6 +15,7 @@ const Card = ({ data }) => {
                     description.length > 50 ? <> {description.slice(0, 65)} <Link to={`/details/${id}`} className='font-bold text-blue-500 ml-1'> see more...</Link></>: description
 
                 }</p>
+                <p className='text-pink-500 ml-1'>Price: {price} $</p>
                 <div className="card-actions mt-2 ">
                     <Link to={`/details/${id}`}><button className="btn btn-secondary text-white">Show Details</button></Link>
                 </div>

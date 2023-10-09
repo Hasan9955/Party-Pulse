@@ -11,7 +11,7 @@ const CardDetails = () => {
     const myCard = data.filter(card => card.id == id)
 
 
-    const { image, description, title } = myCard[0];
+    const { image, description, title, price } = myCard[0];
 
 
     return (
@@ -22,8 +22,9 @@ const CardDetails = () => {
                 <div className=" p-3">
                     <h2 className="card-title">{title}</h2>
                     <p>{description}</p>
+                    <p className="text-pink-500 my-2">Price: {price} $</p>
                     <div className="card-actions mt-2 ">
-                        <Link><button className="btn btn-secondary text-white">Show Details</button></Link>
+                        <Link><button className="btn btn-secondary text-white">Contact NOw</button></Link>
                     </div>
                 </div>
             </div>

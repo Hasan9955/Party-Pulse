@@ -3,72 +3,84 @@
       "id": 1,
       "title": "Wedding",
       "description": " A wedding is a sacred union of two souls, a celebration of love that transcends time and space. It's a day filled with promises, hope, and dreams, where two individuals embark on a journey of eternal togetherness. Imagine a serene garden adorned with fragrant blossoms, a pristine beach kissed by the gentle waves, or an opulent ballroom aglow with soft candlelight. The setting is just the beginning of a wedding's magic. As vows are exchanged and rings are placed, hearts beat as one. Family and friends gather to witness this beautiful moment, sharing in the joy and love that radiate from the couple. Laughter, tears of happiness, and heartfelt speeches fill the air, creating memories that will be cherished for a lifetime. A wedding is a symphony of details, from the exquisite bridal gown to the carefully crafted floral arrangements. It's a day of culinary delights, where every bite is savored, and each sip is a toast to the future. But beyond the grandeur and glamour, a wedding is a promise of forever. It's a declaration of commitment, loyalty, and unwavering love. It's a story of two unique individuals coming together to create a shared destiny.  Your Wedding Planning Service, we specialize in turning your wedding dreams into reality. We understand that your wedding is not just an event; it's the beginning of a beautiful journey. Let us help you craft a day that reflects your unique love story, where every detail is a testament to your love. From intimate gatherings to grand celebrations, we're here to ensure that your wedding is as extraordinary as your love.",
+      "price": 1450,
       "image": "https://i.ibb.co/Sy8sCQf/wedding.jpg"
     },
     {
       "id": 2,
       "title": "Birthday",
       "description": "Your birthday is a day of joy, laughter, and celebration, and we're here to make it absolutely unforgettable. Whether you're turning one or one hundred, our team specializes in crafting the perfect birthday bash tailored to your unique style and preferences. From themed decorations that transport you to far-off lands to mouthwatering cakes that taste as delightful as they look, we leave no detail untouched. Whether it's a fun-filled children's party, an elegant soirée for adults, or a surprise gathering, we've got you covered. Picture a day where the worries of the world fade away, replaced by the smiles and laughter of your loved ones. Imagine a moment when the candles on the cake are the only lights you need to make a wish. That's the magic of a birthday celebration with us. Let us handle the planning, so you can focus on what truly matters enjoying every moment and creating cherished memories with friends and family. Contact us today to start planning the birthday of your dreams!",
+      "price": 780,
       "image": "https://i.ibb.co/Bjny9h4/birthday.jpg"
     },
     {
       "id": 3,
       "title": "Corporate Conference Management",
       "description": "At Corporate Conference Management, we specialize in orchestrating seamless and successful corporate events that leave a lasting impression. With a wealth of experience in the industry, our dedicated team ensures that your conferences and seminars are executed flawlessly, allowing you to focus on what matters most: your message. Whether you're planning a large-scale corporate conference, a strategic seminar, or a niche industry event, Corporate Conference Management is your trusted partner for flawless execution. Contact us today to discuss your conference objectives and let us help you create an event that exceeds expectations.",
+      "price": 800,
       "image": "https://i.ibb.co/jk4FNZT/corporate.jpg"
     },
     {
       "id": 4,
       "title": "Anniversary Party",
       "description": "Commemorate the beautiful journey of love and commitment with an Anniversary Party like no other. Whether you're celebrating one year or a milestone anniversary, our expert event planners are here to create an enchanting and unforgettable experience for you and your loved ones. Picture an evening filled with romance and nostalgia, where every detail is thoughtfully curated to reflect your unique love story. From the elegant decor to the candlelit ambiance, we'll set the stage for a celebration that honors your years together. Indulge in delectable cuisine, sip on fine wines, and dance the night away to your favorite tunes. Share heartfelt toasts, create new memories, and rekindle the romance that brought you together. Let us handle the logistics, so you can focus on what truly matters cherishing the love and commitment that have stood the test of time. Whether it's a quiet and intimate gathering or a grand affair, our Anniversary Party services will make your special day a beautiful chapter in your love story.",
+      "price": 1200,
       "image": "https://i.ibb.co/dW9TN8T/anniversary.jpg"
     },
     {
       "id": 5,
       "title": "Engagement Party",
       "description": "An Engagement Party is a celebration of love, commitment, and the exciting journey that lies ahead. It's a joyous occasion where family and friends come together to toast to the engagement of a couple, marking the beginning of their lifelong adventure together. At an Engagement Party, you can expect an atmosphere filled with warmth, laughter, and heartfelt moments. Whether it's an intimate gathering or a lively soirée, the event is a chance to share in the couple's happiness and offer well-wishes for their future. Typically held shortly after the engagement announcement, these parties can take on various themes and styles, reflecting the personalities and tastes of the soon-to-be-wed couple. From elegant dinners to casual barbecues or themed affairs, Engagement Parties offer a unique opportunity to celebrate the love story of the couple in a way that's special to them. It's a time for the couple to bask in the glow of their recent engagement, show off the sparkling ring, and share their plans and dreams with loved ones. There may be toasts, speeches, and even a bit of dancing to celebrate this exciting milestone. As the couple embarks on their journey towards marriage, an Engagement Party is the perfect prelude, setting the stage for the love and unity that will be celebrated on their wedding day.",
+      "price": 840,
       "image": "https://i.ibb.co/vjW9DVh/angagement.jpg"
     },
     {
       "id": 6,
       "title": "Festival",
       "description": "A festival is a vibrant and communal celebration of culture, tradition, and creativity. It is a joyous occasion that brings people together to revel in the richness of their heritage or to commemorate a special event. Festivals are marked by a kaleidoscope of activities, including music, dance, art, food, and often hold deep significance within a community or region. These lively gatherings can take many forms, from religious festivals that honor sacred traditions to cultural festivals that showcase the diversity of a particular group or society. Festivals often feature colorful parades, traditional performances, and a wide array of culinary delights, allowing attendees to immerse themselves in a sensory feast of sights, sounds, and flavors. Festivals provide a unique opportunity for people to connect, share stories, and forge lasting memories. They serve as a reminder of the beauty and richness of our world's many cultures, uniting individuals in a spirit of joy, unity, and celebration.",
+      "price": 1150,
       "image": "https://i.ibb.co/fQ70rpL/festival.jpg"
     },
     {
       "id": 7,
       "title": "Graduation Party",
       "description": "Congratulations, Graduate! It's time to celebrate your academic achievements in style. We specialize in crafting unforgettable Graduation Parties that capture the essence of your hard work and dedication. Picture this: a vibrant and festive atmosphere filled with the sounds of joy and laughter. From elegant decorations that reflect your school colors to a carefully curated menu of delectable treats, we've got every detail covered. Our team of experienced event planners will work closely with you to create a Graduation Party that's tailored to your taste and preferences. Whether you envision an intimate gathering with close friends and family or a grand affair with fellow graduates, we'll ensure that your celebration is a reflection of your unique journey. Let's raise a toast to your accomplishments, share stories of your academic adventures, and dance the night away. Your Graduation Party is not just a celebration; it's a moment to cherish and remember as you embark on the next exciting chapter of your life. Contact us today to start planning your Graduation Party, and let's make this milestone truly remarkable! ",
+      "price": 900,
       "image": "https://i.ibb.co/8PbnnYZ/graduation.jpg"
     },
     {
       "id": 8,
       "title": "Kids Party",
       "description": "Welcome to the enchanting world of Kids' Party Wonderland! We specialize in crafting magical and unforgettable experiences for children of all ages. Our team of creative experts is dedicated to making your child's special day a joyous and memorable event. At Kids' Party Wonderland, we believe in the power of imagination and wonder. We offer a wide range of themed kids' parties, from fairy tale adventures to superhero extravaganzas. Our party packages include vibrant decorations, exciting games and activities, and a scrumptious array of kid-friendly treats. With a focus on safety and fun, our experienced team ensures that every detail is taken care of, allowing parents to relax and enjoy the celebration alongside their little ones. From colorful balloon arches to interactive entertainment, we go the extra mile to create a world of laughter and delight. Whether you're celebrating a birthday, graduation, or any special occasion, choose Kids' Party Wonderland to transform your child's dreams into reality. Let's make memories that will last a lifetime!",
+      "price": 515,
       "image": "https://i.ibb.co/MVgGGSq/kids.png"
     },
     {
       "id": 9,
       "title": "Special Occasions",
       "description": "Special Occasions are those extraordinary moments in life that deserve to be celebrated in style. Whether it's a milestone birthday, a long-awaited family reunion, or a once-in-a-lifetime achievement, we understand the importance of commemorating these cherished events. Our expert event management services are designed to transform your vision into a reality, ensuring that every detail is meticulously planned and executed. We specialize in curating unforgettable experiences for your most special moments. From elegant decor and exquisite cuisine to entertainment that captivates, we are here to make your special occasion a reflection of your unique style and personality. With a team of dedicated professionals and a passion for creating magic, we take care of all the logistics, leaving you free to savor every moment with your loved ones. Whether you envision an intimate gathering or a grand gala, we have the expertise and creativity to bring your dreams to life. Let us turn your special occasion into a memory you'll treasure forever. Contact us today to begin planning your extraordinary event!",
+      "price": 885,
       "image": "https://i.ibb.co/FxD82BZ/celebrate.jpg"
     },
     {
       "id": 10,
       "title": "Holiday Party",
       "description": "Get ready to embrace the festive spirit like never before! Our Holiday Party services are your passport to an unforgettable seasonal celebration. Whether it's a spirited Christmas gathering, a joyous New Year's Eve bash, or a themed holiday soiree, we specialize in crafting the perfect holiday atmosphere. Indulge in the enchantment of the holiday season as we transform your venue into a winter wonderland adorned with twinkling lights and seasonal decor. Our team of experienced planners will ensure every detail is taken care of, from the selection of delectable holiday-themed cuisine to the choice of entertainment that will have your guests dancing the night away. At our Holiday Parties, the merriment knows no bounds. Toast with friends and loved ones, exchange thoughtful gifts, and create cherished memories that will warm your heart long after the festivities have ended. Join us for a holiday celebration like no other, where joy, laughter, and the magic of the season come together in perfect harmony. Let us make your holiday party dreams a reality!",
+      "price": 652,
       "image": "https://i.ibb.co/frPKSpv/holiday.jpg"
     },
     {
       "id": 11,
       "title": "Christmas Party",
       "description": "Step into a winter wonderland of joy and merriment at our annual Christmas Party! Embrace the festive spirit as we transform our venue into a twinkling holiday paradise. Join us for a night filled with laughter, music, and the warmth of friends and family. Indulge in a delectable feast of holiday treats, from traditional Christmas roasts to sweet, seasonal delights. Sip on warm, spiced beverages or enjoy a glass of champagne as you mingle with fellow revelers. Our Christmas Party isn't just an event; it's a cherished tradition. Dance to your favorite holiday tunes or cozy up by the crackling fire. Santa might even make a special appearance, bringing gifts and spreading cheer. Whether you've been naughty or nice this year, all are welcome to share in the magic of the season. So, put on your favorite ugly sweater or your most elegant attire, and let's make this Christmas Party one to remember. Join us in celebrating the most wonderful time of the year and create cherished memories that will warm your heart long after the snow has melted. Make this holiday season extraordinary at our Christmas Party!",
+      "price": 700,
       "image": "https://i.ibb.co/th363qp/christmas.jpg"
     },
     {
       "id": 12,
       "title": "Bridal and Baby Showers",
       "description": "A Bridal Shower is a cherished tradition that celebrates the upcoming wedding of a bride-to-be. It's a joyous occasion where family and friends come together to shower the bride with love, support, and well wishes. Typically hosted by bridesmaids or close friends and family, a Bridal Shower is a delightful pre-wedding gathering filled with laughter, games, and heartfelt gifts. It's a chance to pamper the bride, share stories, and offer advice as she embarks on this exciting journey toward marriage. Whether it's an intimate tea party, a glamorous soiree, or a casual outdoor gathering, our Bridal Shower planning services ensure that every detail is thoughtfully arranged, making it a day the bride will cherish forever. On the other hand A Baby Shower is a heartwarming celebration of the upcoming arrival of a new bundle of joy. It's a time when family and friends gather to honor an expectant mother and shower her with love, gifts, and best wishes for her journey into motherhood. Hosted by friends, family members, or colleagues, a Baby Shower is a delightful event filled with games, delicious treats, and adorable baby-themed decorations. It's an opportunity to create cherished memories, share parenting advice, and express excitement for the new addition to the family. Whether it's a whimsical themed party, a cozy brunch, or a gender reveal extravaganza, our Baby Shower planning services ensure that this special day is a joyous and stress-free occasion for the mom-to-be and her loved ones.",
+      "price": 750,
       "image": "https://i.ibb.co/MsPVQyH/baby-shower.jpg"
     }
   ]

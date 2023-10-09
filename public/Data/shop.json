@@ -1,0 +1,87 @@
+[
+    {
+      "id": 1,
+      "product_name": "Birthday Balloons Set",
+      "price": 12.99,
+      "image": "https://i.ibb.co/YWRMLQw/images.jpg",
+      "description": "A colorful set of 20 helium-quality balloons for a vibrant birthday celebration."
+    },
+    {
+      "id": 2,
+      "product_name": "Party Hats Pack",
+      "price": 6.49,
+      "image": "https://i.ibb.co/Dfr8Hrv/download.jpg",
+      "description": "A pack of 10 festive party hats with elastic bands for a fun party atmosphere."
+    },
+    {
+      "id": 3,
+      "product_name": "Anniversary Cake Topper",
+      "price": 8.99,
+      "image": "https://i.ibb.co/dpF1ks1/download-1.jpg",
+      "description": "A beautiful acrylic cake topper that adds elegance to your anniversary cake."
+    },
+    {
+      "id": 4,
+      "product_name": "Birthday Gift Wrapping Paper",
+      "price": 3.99,
+      "image": "https://i.ibb.co/ySzVtKz/gift-card.jpg",
+      "description": "10 sheets of high-quality wrapping paper with fun birthday-themed designs."
+    },
+    {
+      "id": 5,
+      "product_name": "Party Confetti Cannon",
+      "price": 7.99,
+      "image": "https://i.ibb.co/Ycky8wz/download-2.jpg",
+      "description": "A handheld confetti cannon for adding excitement to your party celebrations."
+    },
+    {
+      "id": 6,
+      "product_name": "Anniversary Champagne Glasses",
+      "price": 19.99,
+      "image": "https://i.ibb.co/nL4YRq9/download-3.jpg",
+      "description": "Elegant champagne glasses with engraved anniversary motifs for a special toast."
+    },
+    {
+      "id": 7,
+      "product_name": "Birthday Greeting Cards ",
+      "price": 5.99,
+      "image": "https://i.ibb.co/8j9tHTg/1-on-your-birthday-greeting-card-greeting-alwaysgift-original-imaf39c3zyr6qhvj.jpg",
+      "description": "A pack of 10 colorful birthday greeting cards with envelopes."
+    },
+    {
+      "id": 8,
+      "product_name": "Party Streamers ",
+      "price": 4.49,
+      "image": "https://i.ibb.co/VBNhWvX/download-4.jpg",
+      "description": "Vibrant multicolored party streamers to decorate your party venue."
+    },
+    {
+      "id": 9,
+      "product_name": "Anniversary Photo Album",
+      "price": 14.99,
+      "image": "https://i.ibb.co/ZxZz6xG/download-5.jpg",
+      "description": "A lovely photo album to preserve your cherished anniversary memories."
+    },
+    {
+      "id": 10,
+      "product_name": "Birthday Cake Candles",
+      "price": 2.99,
+      "image": "https://i.ibb.co/B3wy94H/bday-201.jpg",
+      "description": "A pack of 24 colorful birthday cake candles to make a wish."
+    },
+    {
+      "id": 11,
+      "product_name": "Party Disposable Tableware Set",
+      "price": 16.99,
+      "image": "https://i.ibb.co/kDpjBcw/download-6.jpg",
+      "description": "Disposable tableware set with plates, cups, and napkins for your party needs."
+    },
+    {
+      "id": 12,
+      "product_name": "Anniversary Love Letters Banner",
+      "price": 9.99,
+      "image": "https://i.ibb.co/rvS71cL/anniversary5.png",
+      "description": "A romantic banner with love letters for decorating your anniversary celebration."
+    }
+  ]
+  
