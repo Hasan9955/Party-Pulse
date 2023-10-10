@@ -24,7 +24,7 @@ const CardDetails = () => {
                     <p>{description}</p>
                     <p className="text-pink-500 my-2">Price: {price} $</p>
                     <div className="card-actions mt-2 ">
-                        <Link><button className="btn btn-secondary text-white">Contact NOw</button></Link>
+                        <Link to='/about'><button className="btn btn-secondary text-white">Contact NOw</button></Link>
                     </div>
                 </div>
             </div>

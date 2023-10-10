@@ -2,14 +2,14 @@ import { useContext, useState } from "react";
 import { toast } from "react-toastify";
 import { AuthContext } from "../../Auth/AuthProvider";
 import { updateProfile } from "firebase/auth";
-import { FcGoogle } from 'react-icons/fc';
+
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai';
 import { Link, useNavigate } from "react-router-dom";
 
 
 
 const Register = () => {
-    const { createUser, googleSign } = useContext(AuthContext)
+    const { createUser } = useContext(AuthContext)
 
     const [error, setError] = useState(null);
     const navigate = useNavigate();
@@ -47,16 +47,7 @@ const Register = () => {
                 console.error(error)
             })
     }
-    const handleGoogle = () => {
-        googleSign()
-            .then(() => {
-                toast.success('Registration successful!')
-                navigate('/')
-            })
-            .catch(error => {
-                console.log(error)
-            })
-    }
+    
     return (
         <div className="flex justify-center">
             <div className="card flex-shrink-0 w-full max-w-sm shadow-2xl bg-base-100">
@@ -103,15 +94,12 @@ const Register = () => {
 
                     </div>
                     <div className="form-control mt-6">
-                        <button className="btn btn-secondary">Register</button>
+                        <button className="btn btn-secondary text-white">Register</button>
                     </div>
 
                 </form>
                 <div className="pb-5 px-5">
-                    <div className="flex gap-4 items-center mb-2">
-                        <p>Registration with: </p>
-                        <button onClick={handleGoogle} className="btn text-2xl"><FcGoogle></FcGoogle></button>
-                    </div>
+                    
                     <p className="mx-auto">Already have an account? <Link className="text-blue-500" to='/login'>Login</Link></p>
                 </div>
             </div>

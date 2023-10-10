@@ -12,14 +12,14 @@ const Navbar = () => {
 
     const links = <>
         <li><NavLink to='/'>Home</NavLink></li>
-        <li><NavLink to='/blog'>Blog</NavLink></li>
+        <li><NavLink to='/shop'>Shop</NavLink></li>
+        <li><NavLink to='/gallery'>Gallery</NavLink></li>
         <li><NavLink to='/about'>About</NavLink></li>
         {
-            user && 
+            user &&
             <>
-                <li><NavLink to='/shop'>Shop</NavLink></li>
-                <li><NavLink to='/gallery'>Gallery</NavLink></li>
-                
+
+
             </>
         }
     </>
@@ -34,7 +34,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a  data-aos="fade-right" data-aos-duration="2000" className="w-40"><img src="https://i.ibb.co/R7QG8Cq/Whats-App-Image-2023-10-08-at-23-34-32-6b8740e0.jpg" alt="" /></a>
+                <a data-aos="fade-right" data-aos-duration="2000" className="w-40"><img src="https://i.ibb.co/R7QG8Cq/Whats-App-Image-2023-10-08-at-23-34-32-6b8740e0.jpg" alt="" /></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-3">
@@ -48,7 +48,7 @@ const Navbar = () => {
                         <p className="border-2 my-auto p-2 rounded hidden md:flex">{user.displayName}</p>
                         <label tabIndex={0} className="mx-2 btn btn-ghost btn-circle avatar">
                             <div className="w-10 rounded-full">
-                                <img src={user.photoURL} alt="user"/>
+                                <img src={user.photoURL} alt="user" />
                             </div>
                         </label>
                     </div>

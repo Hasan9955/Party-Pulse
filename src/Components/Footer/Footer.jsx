@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 
 
 const Footer = () => {
@@ -6,17 +7,22 @@ const Footer = () => {
             <footer className="footer p-10 bg-base-300 text-base-content mt-10">
                 <nav>
                     <header className="footer-title">Services</header>
-                    <a className="link link-hover">Branding</a>
-                    <a className="link link-hover">Design</a>
-                    <a className="link link-hover">Marketing</a>
-                    <a className="link link-hover">Advertisement</a>
+                    <Link to='/details/1'><p className="link link-hover">Wedding</p></Link>
+                    <Link to='/details/2'><p className="link link-hover">Birthday</p></Link>
+                    <Link to='/details/3'><p className="link link-hover">Anniversary Party</p></Link>
+                    <Link to='/details/4'><p className="link link-hover">Engagement Party</p></Link>
+               
+
+
+
+
+
                 </nav>
                 <nav>
                     <header className="footer-title">Company</header>
-                    <a className="link link-hover">About us</a>
-                    <a className="link link-hover">Contact</a>
-                    <a className="link link-hover">Jobs</a>
-                    <a className="link link-hover">Press kit</a>
+                    <Link to='/about'><p className="link link-hover">About us</p></Link>
+                    <Link to='/shop'><p className="link link-hover">Shop</p></Link>
+                    <Link to='/gallery'><p className="link link-hover">Gallery</p></Link>
                 </nav>
                 <nav>
                     <header className="footer-title">Social</header>
@@ -30,7 +36,7 @@ const Footer = () => {
             </footer>
             <footer className="footer footer-center p-4 bg-base-300 text-base-content">
                 <aside>
-                    <p>Copyright © 2023 - All right reserved by ACME Industries Ltd</p>
+                    <p>Copyright © 2023 - All right reserved by Party Pluse Ltd</p>
                 </aside>
             </footer>
         </div>

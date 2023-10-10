@@ -8,6 +8,7 @@ import Register from "../Components/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import Shop from "../Components/Shop/Shop";
 import Gallery from "../Components/Gallery/Gallery";
+import About from "../Components/Home/About";
 
 
   const router = createBrowserRouter([
@@ -41,6 +42,10 @@ import Gallery from "../Components/Gallery/Gallery";
         {
           path: '/gallery',
           element: <PrivateRoute><Gallery></Gallery></PrivateRoute>
+        },
+        {
+          path: '/about',
+          element: <About></About>
         }
       ]
     },

@@ -11,7 +11,9 @@ const Root = () => {
 
         <div>
             <Header></Header>
-            <Outlet></Outlet>
+            <div className="max-w-7xl mx-auto">
+                <Outlet></Outlet>
+            </div>
             <Footer></Footer>
             <ToastContainer></ToastContainer>
         </div>

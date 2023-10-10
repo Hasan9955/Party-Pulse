@@ -3,11 +3,12 @@ import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../Auth/AuthProvider";
 import { toast } from "react-toastify";
 import { AiFillEyeInvisible, AiFillEye } from 'react-icons/ai';
+import { FcGoogle } from 'react-icons/fc';
 
 
 const Login = () => {
 
-    const { signIn } = useContext(AuthContext)
+    const { signIn, googleSign } = useContext(AuthContext)
     const [showPassword, setShowPassword] = useState(false);
     const [error, setError] = useState("")
     const navigate = useNavigate()
@@ -29,6 +30,16 @@ const Login = () => {
             })
             .catch(() => {
                 setError('Invalid email or password')
+            })
+    }
+    const handleGoogle = () => {
+        googleSign()
+            .then(() => {
+                toast.success('Registration successful!')
+                navigate('/')
+            })
+            .catch(error => {
+                console.log(error)
             })
     }
     return (
@@ -65,8 +76,15 @@ const Login = () => {
                     <div className="form-control mt-6">
                         <button className="btn btn-secondary">Login</button>
                     </div>
-                    <p className="mx-auto">New here? <Link className="text-blue-500" to='/register'>Register</Link></p>
+                    
                 </form>
+                <div className="pb-5 px-5 flex flex-col justify-center items-center">
+                    <div className="flex gap-4 items-center mb-2">
+                        <p>Registration with: </p>
+                        <button onClick={handleGoogle} className="btn text-2xl"><FcGoogle></FcGoogle></button>
+                    </div>
+                    <p className="mx-auto">New here? <Link className="text-blue-500" to='/register'>Register</Link></p>
+                </div>
             </div>
         </div>
     );
