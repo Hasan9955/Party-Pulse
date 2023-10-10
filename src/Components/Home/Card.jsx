@@ -6,7 +6,7 @@ const Card = ({ data }) => {
 
     const { id, image, title, description, price } = data;
     return (
-        <div className="card bg-base-100 shadow-xl">
+        <div data-aos="fade-down" data-aos-duration="1500" className="card bg-base-100 shadow-xl">
             <figure><img src={image} alt=" " /></figure>
             <div className=" p-3">
                 <h2 className="card-title">{title}</h2>
@@ -17,7 +17,7 @@ const Card = ({ data }) => {
                 }</p>
                 <p className='text-pink-500 ml-1'>Price: {price} $</p>
                 <div className="card-actions mt-2 ">
-                    <Link to={`/details/${id}`}><button className="btn btn-secondary text-white">Show Details</button></Link>
+                    <Link to={`/details/${id}`}><button  className="btn btn-secondary text-white">Show Details</button></Link>
                 </div>
             </div>
         </div>

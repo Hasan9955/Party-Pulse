@@ -34,7 +34,7 @@ const Navbar = () => {
                         {links}
                     </ul>
                 </div>
-                <a className="w-40"><img src="https://i.ibb.co/R7QG8Cq/Whats-App-Image-2023-10-08-at-23-34-32-6b8740e0.jpg" alt="" /></a>
+                <a  data-aos="fade-right" data-aos-duration="2000" className="w-40"><img src="https://i.ibb.co/R7QG8Cq/Whats-App-Image-2023-10-08-at-23-34-32-6b8740e0.jpg" alt="" /></a>
             </div>
             <div className="navbar-center hidden lg:flex">
                 <ul className="menu menu-horizontal px-1 gap-3">
