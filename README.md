@@ -1,8 +1,29 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Manage Social Events.
+### Live link: https://manage-social-events.web.app/
+## Project Features
 
-Currently, two official plugins are available:
+### 1. User Registration and Profiles:
+- User can easily register or login our website.
+- Thay have a profiles to save favorite events and contact us.
+### 2.	Our service List:
+ - Users can view list of our services.
+ - Each card is displayed with a title, description and a picture.
+ ### 3. View details: 
+ - User can view details of specific Categories easily with donation-amount, title and description.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ ### 2. Reviews and Ratings:
+ - user can see other's reviews and give there reviews.
+
+ ### 3. Photo Galleries:
+ - In gallery section user can see our best events photoes.
+
+ ### 4. Customer Support:
+ - We have a best support team. Customer can get easily support and contact with us. 
+ ### 5. Responsive Design:
+ - The website is responsive and adapts to different screen sizes and devices for a seamless user experience.
+
+
+
+
+
